@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		725DC87E2E61340E00EB060B /* ThemeKit in Frameworks */ = {isa = PBXBuildFile; productRef = 725DC87D2E61340E00EB060B /* ThemeKit */; };
+		72D02AF52E733EDC00112BB3 /* ThemeKit in Frameworks */ = {isa = PBXBuildFile; productRef = 72D02AF42E733EDC00112BB3 /* ThemeKit */; };
+		72D02AF82E733EEC00112BB3 /* TimerKit in Frameworks */ = {isa = PBXBuildFile; productRef = 72D02AF72E733EEC00112BB3 /* TimerKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +29,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72D02AF82E733EEC00112BB3 /* TimerKit in Frameworks */,
 				725DC87E2E61340E00EB060B /* ThemeKit in Frameworks */,
+				72D02AF52E733EDC00112BB3 /* ThemeKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +75,8 @@
 			name = Scrumdinger;
 			packageProductDependencies = (
 				725DC87D2E61340E00EB060B /* ThemeKit */,
+				72D02AF42E733EDC00112BB3 /* ThemeKit */,
+				72D02AF72E733EEC00112BB3 /* TimerKit */,
 			);
 			productName = Scrumdinger;
 			productReference = 725DC86E2E60C99600EB060B /* Scrumdinger.app */;
@@ -101,7 +107,8 @@
 			mainGroup = 725DC8652E60C99600EB060B;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				725DC87C2E61340E00EB060B /* XCLocalSwiftPackageReference "../../Downloads/CreatingACardView/StartingProject/TutorialResources/ThemeKit" */,
+				72D02AF32E733EDC00112BB3 /* XCLocalSwiftPackageReference "ThemeKit" */,
+				72D02AF62E733EEC00112BB3 /* XCLocalSwiftPackageReference "TimerKit" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 725DC86F2E60C99600EB060B /* Products */;
@@ -335,9 +342,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		725DC87C2E61340E00EB060B /* XCLocalSwiftPackageReference "../../Downloads/CreatingACardView/StartingProject/TutorialResources/ThemeKit" */ = {
+		72D02AF32E733EDC00112BB3 /* XCLocalSwiftPackageReference "ThemeKit" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = ../../Downloads/CreatingACardView/StartingProject/TutorialResources/ThemeKit;
+			relativePath = ThemeKit;
+		};
+		72D02AF62E733EEC00112BB3 /* XCLocalSwiftPackageReference "TimerKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = TimerKit;
 		};
 /* End XCLocalSwiftPackageReference section */
 
@@ -345,6 +356,14 @@
 		725DC87D2E61340E00EB060B /* ThemeKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = ThemeKit;
+		};
+		72D02AF42E733EDC00112BB3 /* ThemeKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ThemeKit;
+		};
+		72D02AF72E733EEC00112BB3 /* TimerKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TimerKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
